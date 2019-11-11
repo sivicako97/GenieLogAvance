@@ -47,8 +47,6 @@ public class GildedRoseTest {
     public void ItemNormal(){
         Item[] items = new Item[]{
             new Item("objNormal1", -1, 20), 
-            new Item("objNormal2", -1,  20), 
-            new Item("objNormal3", -1,  20)
         };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
@@ -67,8 +65,6 @@ public class GildedRoseTest {
     public void AgedBrie(){
         Item[] items = new Item[]{
             new Item("Aged Brie", 3, 14), 
-            new Item("Aged Brie", 3, 14), 
-            new Item("Aged Brie", 3, 14),
             //new Item("Sulfuras, Hand of Ragnaros", 3, 14)
         };
         GildedRose app = new GildedRose(items);
