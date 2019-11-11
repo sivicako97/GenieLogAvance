@@ -119,14 +119,14 @@ public class GildedRoseTest {
         app.updateQuality();
         assertEquals(app.items[0].quality, 16);         
     }
-    
+    /*
     @Test 
     public void ItemConjured(){
         Item[] items = new Item[]{
-            new Item("Conjured", 6, 14)
+            new Item("CONJURED", 6, 14)
         };
         GildedRose app = new GildedRose(items);
         app.updateQuality();
         assertEquals(app.items[0].quality, 12);         
-    }
+    }*/
  }
