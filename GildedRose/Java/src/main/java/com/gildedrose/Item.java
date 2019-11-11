@@ -89,4 +89,9 @@ public class Item {
         }
     }
 
+    void update_Quality() {
+        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        decreaseQuality();
+        decreaseSellInValue();
+    }
 }
